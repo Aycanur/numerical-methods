@@ -24,4 +24,4 @@ for i in range(10):
     xi = xi-(f(xi,yi)*gy(xi,yi)-g(xi,yi)*fy(xi,yi))/(fx(xi,yi)*gy(xi,yi)-fy(xi,yi)*gx(xi,yi))
     yi = yi-(g(xi,yi)*fx(xi,yi)-f(xi,yi)*gx(xi,yi))/(fx(xi,yi)*gy(xi,yi)-fy(xi,yi)*gx(xi,yi))
            
-print (xi,yi)
+    print (xi,yi)
